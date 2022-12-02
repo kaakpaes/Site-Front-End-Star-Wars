@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+  /*Ínicio da estilização da configuração da header, background, imagens do personagem e logo*/
+
+header {
+    background-image: url("imagens/backgroundheader.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    height: 96%;
+  }
+
+  .image-header-star {
+    width: 25%;
+    position: relative;
+    left: 16rem;
+    bottom: 20rem;
+  }
+
+.KyloRen-banner {
+    width: 70%;
+    position: relative;
+    right: 14%;
+    z-index: 4;
+
+}
+
+.image-header-wars {
+    width: 25%;
+    position: relative;
+    left: 55.6rem;
+    bottom: 25rem;
+  }
+
+  /* Estilização da Navegação da Header */
+
+  .container-navHeader {
+    width: 15vw;
+    height: 40vh;
+    position: relative;
+    left: 80%;
+    bottom: 60%;
+    /* left: 67rem;
+    bottom: 21.9rem; */
+  }
+
+  .container-navHeader-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.4em;
+    letter-spacing: -1px;
+  }
+
+  .container-navHeader-linha-horizontal {
+    width: 60%;
+    border: 1px solid #000;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.container-navHeader-number01 {
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.container-navHeader-number04 {
+    display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.container-navHeader-button {
+    background-color: #b4c2c8;
+    width: 0.8vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    border: none;
+    
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /*Fim da estilização da header*/
