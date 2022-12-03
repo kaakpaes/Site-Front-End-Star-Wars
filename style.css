@@ -8,88 +8,95 @@
 
   /*Ínicio da estilização da configuração da header, background, imagens do personagem e logo*/
 
+
 header {
     background-image: url("imagens/backgroundheader.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 100%;
     position: absolute;
-    height: 96%;
+  }
+
+  .container-headerImagens {
+    display: flex;
+    justify-content: center;
   }
 
   .image-header-star {
     width: 25%;
-    position: relative;
-    left: 16rem;
-    bottom: 20rem;
+    height: 12%;
+    margin: 23% 0% 22% 18%;
   }
 
-.KyloRen-banner {
-    width: 70%;
-    position: relative;
-    right: 14%;
-    z-index: 4;
-
+ .KyloRen-banner {
+  width: 69%;
+  z-index: 4;
+  position: absolute;
+  LEFT: 11%;
 }
 
 .image-header-wars {
-    width: 25%;
-    position: relative;
-    left: 55.6rem;
-    bottom: 25rem;
+  width: 26%;
+  height: 12%;
+  margin: -28% 13% 33% 65.6%;
+
   }
 
   /* Estilização da Navegação da Header */
 
   .container-navHeader {
     width: 15vw;
-    height: 40vh;
+    height: 14vh;
     position: relative;
-    left: 80%;
-    bottom: 60%;
-    /* left: 67rem;
-    bottom: 21.9rem; */
+    margin: -30% 0% 0% 80%;
   }
 
-  .container-navHeader-text {
+  .Header-text {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 1.4em;
     letter-spacing: -1px;
   }
 
-  .container-navHeader-linha-horizontal {
+  .Header-linha-horizontal {
     width: 60%;
     border: 1px solid #000;
-    margin-top: 1rem;
-    margin-bottom: 0.8rem;
+    margin: 7% 0 7% 0;
 }
 
-.container-navHeader-number01 {
-    display: inline;
+  .div-numberAndButton {
+    display: inline-flex;
+    align-items: center;
+  }
+
+.navHeader-number01, .number04 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.4rem;
 }
 
-.container-navHeader-number04 {
-    display: inline;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+.number04 {
     font-size: 0.8rem;
+    margin: -3% 0% -13%;
 }
 
-.container-navHeader-button {
+.navHeader-button {
+    width: 1.5vw;
+    height: 3vh;
     background-color: #b4c2c8;
-    width: 0.8vw;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 12px;
     border: none;
-    
+    margin-left: 5%;
+  
   }
 
   a {
     text-decoration: none;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    position: relative;
   }
 
   /*Fim da estilização da header*/
+

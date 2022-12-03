@@ -1,4 +1,29 @@
-@media (min-width: 1501px) and (max-width: 1800px) {
-    
+/*MOBILE - (min-width: 201px) and (max-width: 500px)*/
+
+@media (min-width: 201px) and (max-width: 500px) {
+
+.container-navHeader {
+    margin-left: 76%;
+}
+ 
+.Header-text {
+    font-size: 53%;
+  }
+
+.Header-linha-horizontal {
+    width: 75%;
+}
+
+.navHeader-number01 {
+    font-size: 85%;
+}
+
+.number04 {
+    font-size: 55%;
+}
+
+.navHeader-button {
+    width: 4.5vw;
+}
 
 }
