@@ -7,23 +7,66 @@
 }
  
 .Header-text {
-    font-size: 53%;
+    font-size: 60%;
   }
 
 .Header-linha-horizontal {
-    width: 75%;
+    width: 95%;
 }
 
 .navHeader-number01 {
-    font-size: 85%;
+    font-size: 65%;
 }
 
 .number04 {
-    font-size: 55%;
+    font-size: 45%;
 }
 
 .navHeader-button {
-    width: 4.5vw;
+    width: 4.1vw;
+    height: 2vh;
 }
+
+}
+
+@media(min-width:501px) and (max-width: 900px){
+     
+    .container-navHeader {
+        margin-left: 76%;
+    }
+     
+    .Header-text {
+        font-size: 85%;
+      }
+
+    .Header-linha-horizontal {
+        width: 85%;
+    }
+    
+    .navHeader-number01 {
+        font-size: 80%;
+    }
+    
+    .number04 {
+        font-size: 59%;
+    }
+    
+    .navHeader-button {
+    margin-left: 20%;
+
+    }
+     
+    a {
+        width: 1rem;
+    }
+
+}
+
+
+@media(min-width:901px) and (max-width: 1500px) {
+
+}
+
+@media(min-width:1501px) and (max-width: 1800px) {
 
 }
