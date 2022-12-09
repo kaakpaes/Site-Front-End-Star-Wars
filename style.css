@@ -1,105 +1,304 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
-  /*Ínicio da estilização da configuração da header, background, imagens do personagem e logo*/
+/*Ínicio da estilização da configuração da header, background, imagens do personagem e logo*/
 
 
 header {
-    background-image: url("imagens/backgroundheader.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100%;
-    position: absolute;
-  }
+  background-image: url("imagensHeader/backgroundheader.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100%;
+  position: relative;
+}
 
-  .container-headerImagens {
-    display: flex;
-    justify-content: center;
-  }
+.container-headerImagens {
+  display: flex;
+  justify-content: center;
+}
 
-  .image-header-star {
-    width: 25%;
-    height: 12%;
-    margin: 23% 0% 22% 18%;
-  }
+.image-header-star {
+  width: 25%;
+  height: 12%;
+  margin: 23% 0% 22% 18%;
+}
 
- .KyloRen-banner {
-  width: 69%;
-  z-index: 4;
-  position: absolute;
-  LEFT: 11%;
+.KyloRen-banner {
+width: 69%;
+z-index: 4;
+position: absolute;
+LEFT: 11%;
 }
 
 .image-header-wars {
-  width: 26%;
-  height: 12%;
-  margin: -28% 13% 33% 65.6%;
+width: 26%;
+height: 12%;
+margin: -28% 0% 33% 65.6%;
 
-  }
-
-  /* Estilização da Navegação da Header */
-
-  .container-navHeader {
-    width: 15vw;
-    height: 14vh;
-    position: relative;
-    margin: -30% 0% 0% 80%;
-  }
-
-  .Header-text {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.4em;
-    letter-spacing: -1px;
-  }
-
-  .Header-linha-horizontal {
-    width: 60%;
-    border: 1px solid #000;
-    margin: 7% 0 7% 0;
 }
 
-  .div-numberAndButton {
-    display: inline-flex;
-    align-items: center;
-  }
+/* Estilização da Navegação da Header */
+
+.container-navHeader {
+  width: 15vw;
+  height: 14vh;
+  margin: -29% 0% 0% 79%;
+}
+
+.Header-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.4em;
+  letter-spacing: -1px;
+}
+
+.Header-linha-horizontal {
+  width: 60%;
+  border: 1px solid #000;
+  margin: 7% 0 7% 0;
+}
+
+.div-numberAndButton {
+  display: inline-flex;
+  align-items: center;
+}
 
 .navHeader-number01, .number04 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 .number04 {
-    font-size: 0.8rem;
-    margin: -3% 0% -13%;
+  font-size: 0.8rem;
+  margin: -3% 0% -13%;
 }
 
 .navHeader-button {
-    width: 2vw;
-    height: 3vh;
-    background-color: #b4c2c8;
-    border: none;
-    margin-left: 6%;
+  width: 2vw;
+  height: 3vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  background-color: #b4c2c8;
+  color: #000;
+  border: none;
+  margin-left: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+  /* position: relative; */
+
+
+/* ------------- Fim da estilização da header -------------- */
+
+  .sectionOne-Main {
+    width: 100%;
+    height: 57rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
-  
+    background-image: url(imagensMain/stabackground.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-direction: column;
   }
 
-  a {
-    text-decoration: none;
-    color: #000;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 900;
-    font-size: 14px;
-    /* position: relative; */
+/* RedBox Main  */
+
+.container-boxRed {
+  width: 20%;
+  height: 73%;
+  background-image: url(imagensMain/fotostromtrupered.png);
+  background-size: cover;
+  margin-left: 13%;
+  position: absolute;
+  bottom: -58%;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.titleRedBox {
+  width: 58%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 214%;
+  color: #fff;
+}
+
+.textRedBox {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+  font-size: 95%;
+  color: white;
+  width: 82%;
+
+}
+
+/* INICIO DA ESTILIZAÇÃO DO BOTÃO DOWNLOAD */
+
+.button-download-redBox {
+  width: 10vw;
+  height: 5vh;
+  background: transparent;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8%;
+  position: relative
+}
+
+.button-download-redBox::before {
+  content: '';
+  width: 0;
+  height: 4.4vh;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .5s ease;
+}
+
+.button-download-redBox:hover::before {
+  width: 100%;
+}
+
+.button-download-redBox:hover {
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+/* FIM DA ESTILIZAÇÃO DO BOTÃO DOWNLOAD */
+/* FIM RedBox Main  */
+
+/* Inicio About Game  */
+
+.container-aboutGame {
+  width: 55%;
+  height: 18%;
+  display: flex;
+  margin: 20.5% 0 0 40%;
+  text-align: right;
+}
+
+.boxText {
+  width: 44%;
+}
+
+.title-aboutGame {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.title-line {
+  border: 1px solid #000;
+  margin: 3% 0 3% 0;
+  margin-left: 66%;
+}
+
+.text-aboutGame {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.img-aboutGame {
+  width: 40%;
+  margin-left: 1rem;
+}
+
+/* Fim About Game  */
+
+.main-linha-horizontal {
+  width: 75%;
+    border: 2px solid #000;
+    opacity: 0.6;
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+/* INICIO MENU NAV MAIN */
+
+.container-MenuMain {
+  display: flex;
+  justify-content: center;
+}
+
+.lordSifh-ImgMenuMain {
+  width: 35%;
+  height: 75%;
+}
+
+  .nav-MenuMain {
+    width: 15%;
+    margin-top: 2rem;
   }
 
-  /*Fim da estilização da header*/
+  .title-MenuMain {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 230%;
+  text-align: right;
+  }
+
+ ul {
+    list-style: none;
+    text-align: right;
+  }
+
+  nav {
+    margin-top: 8%;
+    margin-left: -40%;
+  }
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #000;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+li:hover {
+  background-color: #D74430;
+  color: #fff;
+  width: 100%;
+  height: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.rey-ImgMenuMain {
+   width: 22%;
+   height: 75%;
+
+}
+
+/* FIM DO MENU NAV MAIN */
+
+.sectionTwo-Main {
+  width: 100%;
+  height: 20rem;
+  background-color: #2D2D2D;
+}
+
+
+
+
 
