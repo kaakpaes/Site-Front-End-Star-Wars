@@ -325,8 +325,18 @@ a {
  .boxEfeito {
   width: 36%;
   margin-left: 1rem;
-  float: left;
+ float: left;
   position: relative;
+}
+
+.boxEfeitoPrimeiraImg {
+  width: 36%;
+  position: relative;
+}
+
+.boxQuatroImagens {
+  width: 77%;
+  margin-left: 23.2%;
 }
 
 a:hover {
@@ -334,12 +344,13 @@ a:hover {
 }
 
 .Mosaico-Image1, .Mosaico-Image2, .Mosaico-Image3, .Mosaico-Image4 {
-  width: 105%;
+  width: 100%;
 }
 
 .Mosaico-Image1:hover {
   transform: scale(1.1);
   background-color: red;
+  transition: 0.5s ease-in-out;
   background-size: 80%;
   opacity: 0.5;
 }
@@ -408,31 +419,35 @@ a:hover {
 .Mosaico-ImageLarger:hover {
   background-color: #6c25be;
   transform: scale(1.1);
+  transition: 0.5s ease-in-out;
 }
 
 .Mosaico-Image2:hover {
   background-color: #55F12B;
   transform: scale(1.1);
+  transition: 0.5s ease-in-out;
 }
 
 .Mosaico-Image3:hover {
   background-color: #EAB850;
   transform: scale(1.1);
+  transition: 0.5s ease-in-out;
 }
 
 .Mosaico-Image4:hover {
   background-color: #2B2BF1;
   transform: scale(1.1);
+  transition: 0.5s ease-in-out;
 }
 
-.boxEfeito a:hover .buttonEst-ImageLarger {
+.boxEfeitoPrimeiraImg a:hover .buttonEst-ImageLarger {
   display: block;
   width: 60%;
   bottom: 10%;
   left: 10rem;
 }
 
-.boxEfeito a:hover .textSpan-ImageLarger {
+.boxEfeitoPrimeiraImg a:hover .textSpan-ImageLarger {
   display: block;
   width: 18rem;
   left: 10rem;
@@ -440,25 +455,13 @@ a:hover {
 }
 
 
-.boxEfeito a:hover .titleSpan-ImageLarger {
+.boxEfeitoPrimeiraImg a:hover .titleSpan-ImageLarger {
   display: block;
   bottom: 70%;
   left: 10rem;
 }
 
-
-
-
-
-
-
-
-
-
-.test {
-  width: 77%;
-  margin-left: 23.2%;
-}
+/************* FIM TRANSIÇÕES NAS IMAGENS ***********/
 
 .container-hierarquia {
 display: flex;
@@ -515,26 +518,29 @@ flex-direction: column;
 
 /* INICIO DA TERCEIRA SECTION*/
 
-.container-3main {
+.container-sectionThree {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: -14rem;
+  margin-left: 22rem;
 
 }
 
-.nav-3main {
+.nav-sectionThree {
   display: flex;
   align-items: center;
   flex-direction: column;
   
 }
 
-.img-3main {
+.img-sectionThree {
   width: 25%;
   margin-top: -11rem;
+  margin-left: 5rem;
 }
 
-.number-3main {
+.number-sectionThree {
   font-family: 'Open Sans', sans-serif;
   font-size: 2.1rem;
   font-weight: 300;
@@ -542,13 +548,13 @@ flex-direction: column;
 
 /*transicao número*/
 
-.number-3main:hover {
+.number-sectionThree:hover {
   font-family: Roboto;
   font-size: 2.1rem;
   font-weight: 700;
 }
  
-.button-3main {
+.button-sectionThree {
   width: 17vh;
   height: 2.5rem;
   border: none;
@@ -560,7 +566,7 @@ flex-direction: column;
   margin-top: 1rem;
 }
 
-.button-3main:before {
+.button-sectionThree:before {
   content: '';
   width: 0;
   height: 2.5rem;
@@ -572,18 +578,17 @@ flex-direction: column;
   transition: all .5s ease;
 }
 
-.button-3main:hover::before {
+.button-sectionThree:hover::before {
   width: 100%;
 }
 
-.button-3main:hover {
+.button-sectionThree:hover {
   transform: scale(1.1);
 }
 
 
 
-
-.text-3main {
+.text-sectionThree {
   width: 8.5vw;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -593,13 +598,13 @@ flex-direction: column;
   margin-top: 1rem;
 }
 
-.line-3main {
+.line-sectionThree {
   width: 30%;
   border: 2px solid #000;
   margin-top: 1rem;
 }  
 
-.line-3main:hover {
+.line-sectionThree:hover {
   width: 30%;
   border: 2px solid #D74430 ;
 }  
@@ -612,7 +617,7 @@ footer {
 }
 
 .container-footer {
-  width: 50%;
+  width: 80%;
   height: 25rem;
   background-color: #FF5A56;
   padding: 2rem 0rem 0rem 9rem;
@@ -626,10 +631,10 @@ footer {
 }
 
 .text-footer {
-  width: 40%;
+  width: 60%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 11px;
+  font-size: 12px;
   color: #fff;
   margin-top: 1rem;
 }
@@ -657,4 +662,14 @@ footer {
   position: relative;
   top: -4rem;
   right: 5rem;
+}
+
+.referenciaFinal {
+  width: 40%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  position: relative;
+  left: -15rem;
+  margin-top: 25rem;
 }
