@@ -1,11 +1,26 @@
-/*MOBILE - (min-width: 201px) and (max-width: 500px)*/
+/*MOBILE - (min-width: 320px) and (max-width: 500px)*/
 
-@media (min-width: 201px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 500px) {
+
+ 
+.image-header-star {
+    position: relative;
+    top: 1.1rem;
+    margin: 19% 0% 22% 18%;
+}
+
+.image-header-wars {
+    position: absolute;
+    top: 2rem;
+    margin: 15% 0% 0% 23%;
+}
 
 .container-navHeader {
     margin-left: 76%;
+    position: relative;
+    top: 2.8rem;
 }
- 
+
 .Header-text {
     font-size: 60%;
   }
@@ -25,9 +40,120 @@
 .navHeader-button {
     width: 4.1vw;
     height: 2vh;
+    
 }
 
+/* section one main*/
+
+.sectionOne-Main {
+    position: relative;
+    z-index: -5;
+    height: 65rem;
+    background-size: 85%;
 }
+
+.container-boxRed {
+    width: 63%;
+    height: 30%;
+    bottom: 61%;
+    left: 27%;
+
+}
+
+.titleRedBox {
+    width: 78%;
+}
+
+.button-download-redBox {
+    width: 40vw;
+}
+
+
+.container-aboutGame {
+    width: 202%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 39rem;
+    margin-left: 4.5rem;
+}
+
+.boxText {
+    width: 37%;
+    margin-top: 1rem;
+    margin-left: -2rem;
+}
+
+.img-aboutGame {
+    width: 31%;
+    margin-left: 2rem;
+  }
+
+.main-linha-horizontal {
+    width: 84%;
+}
+
+.nav-MenuMain {
+    width: 19%;
+    margin-top: 2rem;
+}
+
+.lordSifh-ImgMenuMain {
+    height: 68%;
+    margin-top: 1rem;
+}
+
+.title-MenuMain {
+    width: 95%;
+    font-size: 100%;
+ }
+
+ .liNav {
+    font-size: 0.55rem;
+    margin-top: 0.3rem;
+ }
+
+.rey-ImgMenuMain {
+    margin-top: 1rem;
+    width: 31%;
+    height: 74%;
+}
+
+/*SEGUNDA SECTION */
+
+ .sectionTwo-Main {
+    height: 102rem;
+    align-items: center;
+    justify-content: space-around;
+
+}  
+
+.test {
+    width: 10%;
+}
+
+.title-Atributo {
+font-size: 1.5rem;
+width: 100%;
+text-align: center;
+} */
+
+.grid {
+    display: grid;
+    grid-template-columns: 25rem;
+} 
+
+ .Mosaico-imageLarger {
+    width: 21rem;
+    height: 15rem;
+    margin-left: -6rem;
+}
+
+ .Mosaico-Image1, .Mosaico-Image2, .Mosaico-Image3, .Mosaico-Image4 {
+    width: 25rem;
+    margin-left: -8rem;
+}
+
+
 
 @media(min-width:501px) and (max-width: 900px){
      
