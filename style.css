@@ -500,6 +500,23 @@ flex-direction: column;
   color: #fff;
 }
 
+.container-hierarquia {
+display: flex;
+flex-direction: column;
+}
+
+.text-hierarquia {
+  width: 52%;
+  text-align: right;
+  margin-top: 2rem;
+  position: relative;
+  left: 36%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #fff;
+}
+
 .hierarquia {
   width: 81.2%;
   height: 74%;
@@ -663,4 +680,8 @@ footer {
   position: relative;
   top: -4rem;
   right: 5rem;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 56acecc88a8b1476a0441ec67cc13fc7d42dd3c6
