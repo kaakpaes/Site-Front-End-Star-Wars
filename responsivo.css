@@ -46,18 +46,15 @@
 /* section one main*/
 
 .sectionOne-Main {
-    position: relative;
-    z-index: -5;
     height: 68rem;
     background-size: 85%;
 }
 
 .container-boxRed {
-    width: 63%;
-    height: 30%;
-    bottom: 61%;
-    left: 27%;
-
+    width: 62%;
+    height: 21rem;
+    bottom: 21%;
+    left: 33%;
 }
 
 .titleRedBox {
@@ -67,7 +64,6 @@
 .button-download-redBox {
     width: 40vw;
 }
-
 
 .container-aboutGame {
     width: 70%;
@@ -205,9 +201,8 @@ text-align: center;
 /* TERCEIRA SECTION */
 .container-sectionThree {
     flex-direction: column;
-    position: absolute;
-    bottom: -160rem;
-    left: -9rem;
+    margin-top: -119%;
+    margin-left: 13rem;
 }
 
 .img-sectionThree {
@@ -218,10 +213,18 @@ text-align: center;
 
 .number-sectionThree {
     font-size: 1rem;
+    margin-top: 2rem;
 }
+
+.number-sectionThree:hover {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+   
 
 .text-sectionThree {
     width: 41.5vw;
+
 }
 
 .button-sectionThree {
@@ -232,15 +235,9 @@ margin-top: 0.2rem;
 }
 
 .button-sectionThree:before {
-    content: '';
-    width: 0;
     height: 2rem;
-    background-color: #D74430;
-    position: absolute;
-    z-index: -1;
-    transition: all .5s ease;
-  }
-  
+}
+
 /* FOOTER */
 
 footer {
@@ -256,7 +253,304 @@ footer {
 }
 
 .title-footer {
-    font-size: 4rem;
+    font-size: 3.5rem;
+
+}
+
+.text-footer {
+    font-size: 17px;
+    width: 84%;
+}
+
+.line-footer {
+    width: 86%;
+    border: 2px solid #D74430;
+}
+
+.button-footer {
+    width: 41%;
+}
+
+.logo-footer {
+    width: 56%;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.darthVader-footer {
+    width: 98%;
+    top: -6rem;
+    right: 0rem;
+}
+
+.referenciaFinal {
+    width: 75%;
+    position: relative;
+    left: 4rem;
+    margin-top: -5rem;
+}
+
+
+}
+
+@media (min-width:501px) and (max-width: 900px) {
+     
+  
+.image-header-star {
+    position: relative;
+    top: 1.1rem;
+    margin: 19% 0% 22% 18%;
+}
+
+.image-header-wars {
+    position: absolute;
+    top: 2rem;
+    margin: 15% 0% 0% 23%;
+}
+
+.container-navHeader {
+    margin-left: 76%;
+    position: relative;
+    top: 2.8rem;
+}
+
+.Header-text {
+    font-size: 60%;
+  }
+
+.Header-linha-horizontal {
+    width: 95%;
+}
+
+.navHeader-number01 {
+    font-size: 65%;
+}
+
+.number04 {
+    font-size: 45%;
+}
+
+.navHeader-button {
+    width: 4.1vw;
+    height: 2vh;
+    
+}
+
+/* section one main*/
+
+.sectionOne-Main {
+    height: 81rem;
+    background-size: 85%;
+}
+
+.container-boxRed {
+    width: 51%;
+    height: 23rem;
+    bottom: 2%;
+    left: 43%;
+}
+
+.titleRedBox {
+    width: 78%;
+}
+
+.button-download-redBox {
+    width: 25vw;
+}
+
+.container-aboutGame {
+    width: 58%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 51rem;
+    margin-left: 11.5rem;
+    align-items: flex-end;
+}
+
+.boxText {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.img-aboutGame {
+    width: 58%;
+    margin-left: 19rem;
+    margin-top: -11.5rem;
+  }
+
+.main-linha-horizontal {
+    width: 75%;
+}
+
+.nav-MenuMain {
+    width: 25%;
+    margin-top: 2rem;
+}
+
+.lordSifh-ImgMenuMain {
+    height: 68%;
+    margin-top: 1rem;
+}
+
+.title-MenuMain {
+    width: 95%;
+    font-size: 100%;
+ }
+
+ .liNav {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+ }
+
+.rey-ImgMenuMain {
+    margin-top: 1rem;
+    width: 31%;
+    height: 74%;
+}
+
+/*SEGUNDA SECTION */
+
+ .sectionTwo-Main {
+    height: 125rem;
+    align-items: center;
+    justify-content: space-around;
+
+}  
+
+.title-Atributo {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2.11rem;
+} 
+
+.grid {
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 25rem;
+    margin-left: 4rem;
+} 
+
+.boxQuatroImagens {
+    width: 10%;
+    margin-left: 6rem;
+    grid-row: none;
+}
+
+ .Mosaico-imageLarger {
+    width: 245%;
+    height: 97%;
+    margin-left: 0rem;
+}
+
+ .Mosaico-Image1, .Mosaico-Image2, .Mosaico-Image3, .Mosaico-Image4 {
+    width: 22rem;
+    margin-left: -7.5rem;
+}
+
+.boxEfeitoPrimeiraImg {
+    width: 26.5%;
+    margin-left: -7.5rem;
+}
+
+.boxEfeito {
+    left: 0rem;
+}
+
+.hierarquia {
+    width: 100%;
+    position: relative;
+    left: 0%;
+    bottom: 0px;
+}
+
+.text-hierarquia {
+    width: 76%;
+    position: relative;
+    left: 21%;
+}
+
+.how-play {
+    width: 83%;
+    font-size: 1.1rem;
+}
+
+.titleSpan {
+    width: 10rem;
+    bottom: 65%;
+    left: -5rem;
+}
+
+.textSpan {
+    width: 11rem;
+    bottom: 38%;
+    left: -82px;
+}
+
+.buttonEst {
+    width: 10rem;
+    bottom: 18px;
+    left: -5rem;
+}
+
+/* TERCEIRA SECTION */
+.container-sectionThree {
+    flex-direction: column;
+    margin-top: -89%;
+    margin-left: 13rem;
+}
+
+.img-sectionThree {
+    width: 70%;
+    margin-LEFT: -9REM;
+    margin-top: -5rem;
+    
+}
+
+.number-sectionThree {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.number-sectionThree:hover {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+   
+
+.text-sectionThree {
+    width: 41.5vw;
+    margin-top: 2rem;
+}
+
+.button-sectionThree {
+width: 15vh;
+height: 2rem;
+font-size: 11px;
+margin-top: 0.2rem;
+}
+
+.button-sectionThree:before {
+    height: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer {
+    width: 100%;
+    height: 45rem;
+    margin-top: 16rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.title-footer {
+    font-size: 3.5rem;
 
 }
 
@@ -293,44 +587,36 @@ footer {
     margin-top: -7rem;
 }
 
-@media(min-width:501px) and (max-width: 900px){
-     
-    .container-navHeader {
-        margin-left: 76%;
-    }
-     
-    .Header-text {
-        font-size: 85%;
-      }
+}
 
-    .Header-linha-horizontal {
-        width: 85%;
-    }
-    
-    .navHeader-number01 {
-        font-size: 80%;
-    }
-    
-    .number04 {
-        font-size: 59%;
-    }
-    
-    .navHeader-button {
-    margin-left: 20%;
-
-    }
+@media (min-width:901px) and (max-width: 1200px) {
      
-    a {
-        width: 1rem;
+    .container-boxRed {
+        width: 26%;
+        height: 50%;
+        bottom: 2%;
+    }
+
+    .sectionOne-Main {
+    height: 58rem;
+    }
+
+    .nav-MenuMain {
+        width: 27%; 
+    }
+
+
+
+    .Mosaico-ImageLarger {
+        margin-left: 5rem;
     }
 
 }
 
+@media (min-width:1201px) and (max-width: 1300px) {
 
-@media(min-width:901px) and (max-width: 1500px) {
-
-}
-
-@media(min-width:1501px) and (max-width: 1800px) {
-
-}
+    .container-boxRed {
+        width: 20%;
+        height: 73%;
+        bottom: -28%;
+    }
