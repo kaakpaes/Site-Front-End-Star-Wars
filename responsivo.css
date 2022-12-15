@@ -1,6 +1,6 @@
 /*MOBILE - (min-width: 320px) and (max-width: 500px)*/
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 290px) and (max-width: 500px) {
 
  
 .image-header-star {
@@ -53,8 +53,8 @@
 .container-boxRed {
     width: 62%;
     height: 21rem;
-    bottom: 21%;
-    left: 33%;
+    bottom: 18%;
+    left: 36%;
 }
 
 .titleRedBox {
@@ -253,7 +253,7 @@ footer {
 }
 
 .title-footer {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
 
 }
 
@@ -620,3 +620,4 @@ footer {
         height: 73%;
         bottom: -28%;
     }
+}
