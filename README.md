@@ -20,7 +20,7 @@ Foi disponibilizado 3 opções, no qual eu preferi fazer a página de nível 3. 
 
 https://user-images.githubusercontent.com/113450612/231317848-0d912abc-5102-41d9-954c-2b804ca17ea9.mp4
 
-> :construction: Utilizei bastante a propriedade de :hover no CSS, o qual deu todo um diferencial em botões e objetos clicáveis.
+> :construction: O Objetivo era utilizar tudo que aprendemos, então utilizei display, position, bastante a propriedade de :hover no CSS, o qual deu todo um diferencial em botões e objetos clicáveis e foi o primeiro responsivo.
 
 
 
