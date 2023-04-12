@@ -1,4 +1,4 @@
-# 💻 Star-Wars Projeto final do Módulo 1 (VNW)
+# 💻 Star-Wars Projeto final do Módulo 1 - 14/12/2022 (VNW) 
 
 ![kaakpaes](https://user-images.githubusercontent.com/113450612/231313860-a65ee6c5-a12b-4f61-800c-5063f788fcd9.png)
 
