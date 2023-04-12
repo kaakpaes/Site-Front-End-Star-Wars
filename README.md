@@ -24,4 +24,4 @@ https://user-images.githubusercontent.com/113450612/231317848-0d912abc-5102-41d9
 
 
 
-<h2 align="center"> Espero que tenham gostado, esse também é meu primeiro README, thankss! xoxo 👋 </h2>
+<h2 align="center"> Espero que tenham gostado, esse também é meu primeiro README, thankss! xoxo👋 </h2>
