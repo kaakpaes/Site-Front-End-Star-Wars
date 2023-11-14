@@ -1,6 +1,5 @@
 # 💻 Star-Wars Projeto final do Módulo 1 - 14/12/2022 (VNW) 
 ![paes (4)](https://user-images.githubusercontent.com/113450612/235277606-e080d628-c7d4-4dcb-b71a-bd85e26aa8c5.png)
-<img src="https://user-images.githubusercontent.com/113450612/235277606-e080d628-c7d4-4dcb-b71a-bd85e26aa8c5.png" />
 
 <h1 align="center"> Hi, there! 👋 </h1>
 
